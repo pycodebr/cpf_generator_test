@@ -8,7 +8,9 @@ def validate_cpf(cpf: str) -> bool:
         return False
 
     def calculate_digit(digits):
-        total = sum((len(digits) + 1 - i) * int(n) for i, n in enumerate(digits))
+        total = sum(
+            (len(digits) + 1 - i) * int(n) for i, n in enumerate(digits)
+        )
         remainder = 11 - (total % 11)
         return '0' if remainder > 9 else str(remainder)
 
