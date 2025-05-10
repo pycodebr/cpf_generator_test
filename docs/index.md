@@ -1,4 +1,4 @@
-# CPF Utils
+# CPF Generator
 
 Pacote Python leve para **geração** e **validação** de números de CPF brasileiros por meio de uma interface de linha de comando (CLI).
 
@@ -17,8 +17,8 @@ Pacote Python leve para **geração** e **validação** de números de CPF brasi
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seuusuario/cpf_utils.git
-cd cpf_utils
+git clone https://github.com/pycodebr/cpf_generator_test.git
+cd cpf_generator
 ```
 
 2. **Instale em modo editável:**
@@ -58,7 +58,7 @@ python -m cli validate 52998224725
 ## Estrutura do Projeto
 
 ```
-cpf_utils/
+cpf_generator/
 ├── src/
 │   ├── cpf/
 │   │   ├── generator.py      # Lógica de geração de CPF
